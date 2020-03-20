@@ -7,6 +7,9 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
-body {
-    background-color: red;
-}
+// style
+@import "style";
+
+@import "header";
+@import "main";
+@import "footer";
