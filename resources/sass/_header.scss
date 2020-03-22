@@ -1,0 +1,94 @@
+.header {
+    position: relative;
+    /*     .navbar {
+        margin-bottom: 30px;
+        text-align: center; */
+    .invoice-wrap {
+        padding: 10px;
+        @include media-breakpoint-up(xl) {
+            width: 20%;
+        }
+        @include media-breakpoint-only(lg) {
+            width: 20%;
+        }
+        @include media-breakpoint-only(md) {
+            width: 20%;
+        }
+        @include media-breakpoint-only(sm) {
+            width: 30%;
+        }
+
+        @include media-breakpoint-only(xs) {
+            width: 50%;
+        }
+        img.invoice__img-top {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .wrap__logo {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+
+        img {
+            width: 160px;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    // Стилізація Кнопки в Header
+    .header__button-wrap {
+        padding-top: 25px;
+        .header__button {
+            display: block;
+            max-width: 300px;
+            width: 100%;
+            line-height: 1;
+            font-weight: 700;
+            font-size: 14px;
+
+            color: $c-light;
+            box-shadow: none;
+
+            &:nth-child(1) {
+                margin-bottom: 11px;
+                background-color: #0172b3;
+                &:hover {
+                    background-color: darken(#0172b3, 5%);
+                }
+            }
+            &:nth-child(2) {
+                background-color: #98b301;
+                &:hover {
+                    background-color: darken(#98b301, 5%);
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .header {
+        .header__button-wrap {
+            flex-wrap: wrap;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .header {
+        .header__button-wrap {
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 30px;
+            .header__button {
+                font-size: 16px;
+                &:nth-child(1) {
+                    margin-right: 10px;
+                    height: 40px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}
