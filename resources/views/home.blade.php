@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="offset-sm-1 col-sm-10 offset-lg-0 col-lg-7">
-                    <div class="row">
+                    <div class="row justify-content-center">
 
                         <div class="invoice-wrap">
                             <div class="invoice">
@@ -35,7 +35,6 @@
                             </div>
                         </div>
 
-
                         <div class="invoice-wrap">
                             <div class="invoice">
                                 <img class="invoice__img-top" src="/img/5.png" alt="">
@@ -45,7 +44,6 @@
                                 <div class="invoice__interest invoice__interest-light">0%</div>
                             </div>
                         </div>
-
 
                         <div class="invoice-wrap">
                             <div class="invoice">
@@ -138,7 +136,7 @@
                             <div class="dream-hause__title">
                                 <span>Будинок мрії</span>
                             </div>
-                            <div class="dream-hause__body  ">
+                            <div class="dream-hause__body">
                                 @foreach(range(1,27) as $value)
                                 <div class="  dream-hause__item-wrap">
                                     <div class="dream-hause__item">
