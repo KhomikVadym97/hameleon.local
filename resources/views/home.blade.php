@@ -69,7 +69,7 @@
 
                         <div class="invoice-wrap">
                             <div class="invoice">
-                                <img class="invoice__img-top" src="/img/6.jpg" alt="">
+                                <img class="invoice__img-top" src="/img/74.jpg" alt="">
                                 <div class="invoice__body">
                                     <div class="invoice__title"></div>
                                 </div>
